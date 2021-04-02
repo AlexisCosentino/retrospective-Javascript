@@ -36,6 +36,11 @@ i{
     color: #966235;
 }
 
+span{
+    font-weight: 900;
+    font-family: 'Syne Mono', monospace;
+}
+
 html, body{
     margin-top: 0;
 }
