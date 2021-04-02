@@ -1,0 +1,49 @@
+
+body{
+    margin: 0;
+
+    background:/* url(pngwing.com.png),*/ linear-gradient(to left, #EFB583, #FEF1BD);
+}
+.background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background img{
+    margin: auto;
+}
+
+
+article{
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    padding: 10px 30px;
+}
+
+h1{
+    font-family: 'Megrim', cursive;
+    font-weight:900;
+}
+
+li, p{
+    font-family: 'Syne Mono', monospace;
+    font-weight: 500;
+    padding: 8px 0;
+}
+i{
+    padding:0 50px;
+    color: #966235;
+}
+
+html, body{
+    margin-top: 0;
+}
+.pg-canvas {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
